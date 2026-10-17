@@ -1,3 +1,8 @@
 **/test/
 **/train/
 **/valid/
+yolo26n.pt
+/runs/detect/train-2/*
+!/runs/detect/train-2/args.yaml
+!/runs/detect/train-2/weights/
+!/runs/detect/train-2/weights/**
