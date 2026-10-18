@@ -5,7 +5,7 @@ from ultralytics import YOLO
 # llm slop that basically gets runs/detect/train-2/weights and test images location
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
-WEIGHTS_PATH = REPO_ROOT / "runs" / "detect" / "train-mac" / "weights" / "best.pt"
+WEIGHTS_PATH = REPO_ROOT / "runs" / "detect" / "train-mac-card-detection" / "weights" / "best.pt"
 INPUT_DIR = SCRIPT_DIR / "test_images"
 OUTPUT_DIR = SCRIPT_DIR / "test_images_out"
 
